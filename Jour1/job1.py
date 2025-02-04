@@ -3,11 +3,11 @@ class Operation:
         self.nombre1 = nombre1
         self.nombre2 = nombre2
 
-# Instanciation de la classe
+# Instantiate the class
 operation1 = Operation()
 
-# Affichage de l'objet
-print(operation1)  # Cela affichera l'adresse mémoire de l'objet
+# Object display
+print(operation1)  # This will display the object's memory address
 
-# Pour afficher les valeurs des attributs :
+# To display attribute values :
 print(f"Nombre1: {operation1.nombre1}, Nombre2: {operation1.nombre2}")
